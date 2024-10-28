@@ -1,0 +1,96 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "DM sans", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+/* Parallaksi efekti, teksti liukuu kuvan päällä */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Ensimmäinen kuva (täysi korkeus) */
+.bgimg-1 {
+  background-image: url("images/etusivu_kuva.jpg");
+  min-height: 100%;
+}
+/* Toinen kuva (Portfolio) */
+.bgimg-2 {
+  background-image: url("images/20200910_064452.jpg");
+  min-height: 400px;
+}
+/* Kolmas kuva (Yhteystiedot) */
+.bgimg-3 {
+  background-image: url("images/20210909_191358.jpg");
+  min-height: 400px;
+}
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+/*Poista parallaksivieritys käytöstä tableteissa ja puhelimissa (max-device-width: 1600px)*/
+@media only screen and (max-device-width: 600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+.card {/*harrastukset -kortti*/
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  height: 500px;
+  margin: 5px;
+  text-align: center;
+  display: inline-block;
+  /* position: relative; */
+  overflow: hidden;
+  font-size: large;
+  padding: 5px;
+}
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #777;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+.card button:hover {
+  opacity: 0.7;
+}
+/* portfoliokortti */
+.pf_kortti {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 300px;
+  margin: 15px;
+  text-align: center;
+  padding:10px;
+  display: inline-block;
+}
+.kurssi {
+  color: grey;
+  font-size: large;
+}
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #777;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+.a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+.button:hover, a:hover {
+  opacity: 0.7;
+}

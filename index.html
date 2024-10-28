@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<title>Samuli Katainen</title>
+<meta name="description" content="Samuli Kataisen portfolio">
+<meta name="keywords" content="HTML, CSS, JavaScript, Programming, Python, Git, Data Networks, Ohjelmointi, Tietoverkot, JAMK, Tietotekniikka, Viestintätekniikka, Vakuutus, Myynti">
+<meta name="author" content="Samuli Katainen">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://kit.fontawesome.com/efc895c290.js" crossorigin="anonymous"></script>
+<link href="css/lightbox.css" rel="stylesheet">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DMsans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet"  href="style.css">
+<style>
+</style>
+</head>
+<body>
+<!-- Navbar (sit on top) -->
+<nav class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#etusivu" class=" w3-center w3-bar-item w3-button">ETUSIVU</a>
+    <a href="#tietoja" class="w3-center w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> TIETOJA</a>
+    <a href="#portfolio" class="w3-center w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
+    <a href="#yhteystiedot" class="w3-center w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> YHTEYSTIEDOT</a>
+    <a class="w3-right w3-center w3-bar-item" style="font-size: medium;">Samuli Katainen</a>
+  </div>
+  <!-- Navigointipalkki pienillä näytöillä -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#tietoja" class="w3-bar-item w3-button" onclick="toggleFunction()">TIETOJA</a>
+    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+    <a href="#yhteystiedot" class="w3-bar-item w3-button" onclick="toggleFunction()">YHTEYSTIEDOT</a>
+  </div>
+</nav>
+<!-- Ensimmäinen parallaksikuva tekstillä -->
+<header class="bgimg-1 w3-display-container w3-opacity-min" id="etusivu">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large  w3-xxxlarge w3-wide w3-animate-opacitysty" style="color:rgb(32, 32, 32);">SAMULI KATAINEN</span> <!--w3-black-->
+    <div class="w3-center w3-large" style="color:rgb(32, 32, 32)"><b>"Tuleva ohjelmistokehittäjä"</b></div>
+  </div>
+</header>
+<!-- Tietoja minusta osio -->
+<section class="w3-content w3-container w3-padding-64" id="tietoja">
+  <h3 class="w3-center">MINÄ</h3>
+  <p class="w3-center"><em>Koodaava vakuutusmies</em></p>
+  <p>Olen Samuli Katainen ja opiskelen Digiosaaja -opintokokonaisuutta Jyväskylän ammattikorkeakoulussa. Näiden opintojen pohjalta hankin laaja-alaiset valmiudet ICT-alan perusteista, mm. ohjelmoinnista ja web-käyttöliittymien tekemisestä. 
+    Ohjelmointi ja tietotekniikka ovat kiinnostaneet minua jo pidempään ja päätin laajentaa ammatillista osaamistani tähdäten ICT-alalle. Minulla on vahva yli 16 vuoden kokemus myyntityöstä ja asiakashankinnasta vakuutusalalla yritys- sekä kuluttaja-asiakkaiden parissa. 
+    Jatkuva oppiminen ja itsensä kehittäminen ovat minulle tärkeitä arvoja työelämässä. Työurani aikana olen kehittänyt osaamistani esimerkiksi vakuutusalan erikoistumisopinnoilla ja myyntikoulutuksilla. Nykyinen työni on luonteeltaan oma-aloitteista ja itseohjautuvaa, 
+    mutta toimin jatkuvasti vuorovaikutuksessa ja yhteistyössä tiimin ja erityisasiantuntijoiden kanssa. </p>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <p><b><i class="fa fa-user w3-margin-right"></i>Samuli Katainen</b></p><br>
+      <img src="images/IMG_E7829.JPG" class="w3-round w3-image  w3-opacity w3-hover-opacity-off" alt="kuva minusta" width="300" height="200">
+    </div>
+    <!-- Piilota tämä teksti pienissä laitteissa lisäämällä w3-hide-small -->
+    <div class="w3-col m6 w3-padding-large">
+      <!-- <p>Osana digiosaaja -koulutusta Python -ohjelmointi ja Git -versionhallinta ovat tulleet tutuksi. Web-tekniikoista CSS, HTML ja JavaScript ovat olleet osana opintoja. Nämä verkkosivut on toteutettu Web-tekniikoiden harjoitustyönä. 
+        Tulevilla jaksoilla laajennan osaamistani kyberturvallisuuteen, tietoverkkoihin, tietokantoihin sekä FullStack -ohjelmointiin. </p> -->
+    </div>
+  </div>
+  <p class="w3-xlarge w3-center w3-padding-16">HARRASTUKSET</p>
+  <div class="w3-center">
+    <div class="card">
+    <img src="images/kalastus.JPG" alt="kalastus" style="width:100%; height:auto;" onclick="onClick(this)" class="w3-hover-opacity">
+    <h2 style="font-size:x-large;">Kalastus</h2>
+       <p>Harrastan kalastusta eri muodoissa: Jokikalastusta, vetouistelua ja pilkkimistä. Nautin luonnossa liikkumisesta ja valokuvaan luontoa retkilläni.</p>
+      </div>
+  <div class="card">
+    <img src="images/jäkis.JPG" alt="jääkiekko" style="width:100%; height: auto;" onclick="onClick(this)" class="w3-hover-opacity">
+    <h2 style="font-size: x-large;">Jääkiekko</h2>
+    <p>Pelaan jääkiekkoa harrastesarjassa.</p>
+  </div>
+  <div class="card">
+    <img src="images/bors22.jpg" alt="porssi" style="width:100%; height:auto;" onclick="onClick(this)" class="w3-hover-opacity">
+    <h2 style="font-size: x-large;">Säästäminen ja sijoittaminen</h2>
+    <p>Harrastusmielessä säästän ja sijoitan sekä seuraan aktiivisesti maailman talousasioita.</p>
+  </div>
+</div>
+</section>
+<!-- Toinen parallaksikuva portfoliotekstillä -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
+  </div>
+</div>
+<!-- Portfolio osio -->
+<section>
+<div class="w3-content w3-container w3-padding-64" id="portfolio">
+  <h3 class="w3-center">KOULUTUS JA TYÖKOKEMUS</h3>  
+  <p><i class="fa-regular fa-calendar-days" style="padding: 5px;"></i>2003 Kone- ja metallialan perustutkinto, Jyväskylän Tekninen Ammattioppilaitos</p>
+  <p><i class="fa-regular fa-calendar-days" style="padding: 5px;"></i>7/2003-1/2004 Asepalvelus, Savon Prikaati</p>
+  <p><i class="fa-regular fa-calendar-days" style="padding: 5px;"></i>1/2004-11/2005 Hitsaaja, RV Hitsaus Ky</p>
+  <p><i class="fa-regular fa-calendar-days" style="padding: 5px;"></i>2007 Koneenasentajan erikoisammattitutkinto, Teollisuuden Oppimispaikka Oy</p>
+  <p><i class="fa-regular fa-calendar-days" style="padding: 5px;"></i>11/2005-12/2007 Koneasentaja/Telakunnostaja, Teollisuuden Oppimispaikka Oy / Metso Paper Oy</p>
+  <p><i class="fa-regular fa-calendar-days" style="padding: 5px;"></i>12/2007- Vakuutusedustajana LähiTapiolassa</p>
+  <p><i class="fa-regular fa-calendar-days" style="padding: 5px;"></i>1/2023-12/2023 Digiosaaja opintokokonaisuus Jyväskylän ammattikorkeakoulu</p>
+  <h3 class="w3-center" style="margin-top:50px">DIGIOSAAJA OPINNOT (30op):</h3>
+  <p class="w3-center"><em>Klikkaamalla näet harjoitustöitäni</em></p>
+</div>
+<div class="w3-center">
+  <div class="pf_kortti">
+    <i class="fa-solid fa-desktop" style="font-size:60px;"></i>
+    <h1 style="font-size: 20px;">ICT-valmiudet</h1>
+    <p class="kurssi">MS-Teams, Word, Excel, PP</p>
+    <p>3op</p>
+    <p><a class="button" href="images/word.png" data-lightbox="ict" data-title="word">Harjoitustöitä</a><a href="images/excel.png" data-lightbox="ict" data-title="excel"></a><a href="images/pp.png" data-lightbox="ict" data-title="excel"></a></p>
+    </div>
+    <div class="pf_kortti">
+        <i class="fa-brands fa-python" style="font-size:60px;"></i>
+        <h1 style="font-size: 20px;">Ohjelmoinnin perusteet</h1>
+        <p class="kurssi">Python, Git</p>
+        <p>5op</p>
+        <p><a class="button" href="images/python1.png" data-lightbox="python" data-title="python1">Harjoitustöitä</a><a href="images/python2.png" data-lightbox="python" data-title="python2"></a><a href="images/python3.png" data-lightbox="python" data-title="python3"></a><a href="images/python4.png" data-lightbox="python" data-title="python4"></a></p>
+        </div>
+        <div class="pf_kortti">
+            <i class="fa-brands fa-html5" style="font-size:60px;"></i>
+            <h1 style="font-size: 20px;">Web-tekniikat</h1>
+            <p class="kurssi">HTML5, CSS</p>
+            <p>4op</p>
+            <p><a class="button" href="images/web1.png" data-lightbox="web" data-title="web1">Harjoitustöitä</a><a href="images/web2.png" data-lightbox="web" data-title="web2"></a><a href="images/web3.png" data-lightbox="web" data-title="web3"></a><a href="images/web4.png" data-lightbox="web" data-title="web4"></a><a href="images/web5.png" data-lightbox="web" data-title="web5"></a></p>            
+        </div>
+        <div class="pf_kortti">
+            <i class="fa fa-database" style="font-size:60px;"></i>
+            <h1 style="font-size: 20px;">Tietokannat</h1>
+            <p class="kurssi">SQL</p>
+            <p>4op</p>
+            <p><a class="button" href="images/tietokannat1.png" data-lightbox="tietokannat" data-title="tietokannat1">Harjoitustöitä</a><a href="images/tietokannat2.png" data-lightbox="tietokannat" data-title="tietokannat2"></a><a href="images/tietokannat3.png" data-lightbox="tietokannat" data-title="tietokannat3"></a><a href="images/tietokannat4.png" data-lightbox="tietokannat" data-title="tietokannat4"></a></p>            
+        </div>
+        <div class="pf_kortti">
+            <i class="fa-solid fa-network-wired" style="font-size:60px;"></i>
+            <h1 style="font-size: 20px;">Tietoverkot</h1>
+            <p class="kurssi">OSI-malli</p>
+            <p>5op</p>
+            <p><a class="button" href="images/tietoverkotesite.png" data-lightbox="tietoverkot" data-title="tietoverkot1">Harjoitustöitä</a><a href="images/fyysinen_topologia.png" data-lightbox="tietoverkot" data-title="tietoverkot2"></a><a href="images/looginen_topologia.png" data-lightbox="tietoverkot" data-title="tietoverkot3"></a><a href="images/ping_lubuntu1_lubuntu2.png" data-lightbox="tietoverkot" data-title="tietoverkot4"></a><a href="images/ping_lubuntu2_switch1_switch2.png" data-lightbox="tietoverkot" data-title="tietoverkot5"></a></p>            
+        </div>
+        <div class="pf_kortti">
+            <i class="fa-solid fa-shield-halved" style="font-size:60px;"></i>
+            <h1 style="font-size: 20px;">Kyberturvallisuus</h1>
+            <p class="kurssi">Cyber</p>
+            <p>4op</p>
+            <p><a class="button" href="images/cyber_esite.png" data-lightbox="kyber" data-title="kyber1">Harjoitustöitä</a><a href="images/gdprtesti.png" data-lightbox="kyber" data-title="kyber2"></a><a href="images/harj4näyttökuvawireshark.png" data-lightbox="kyber" data-title="kyber3"></a><a href="images/harjoitus13.png " data-lightbox="kyber" data-title="kyber4"></a><a href="images/kali.png" data-lightbox="kyber" data-title="kyber5"></a></p>            
+        </div>
+        <div class="pf_kortti">
+            <i class="fas fa-layer-group" style="font-size:60px;"></i>
+            <h1 style="font-size: 20px;">Full Stack -ohjelmointi</h1>
+            <p class="kurssi">JavaScript, Node.js, C#, SQL, ym.</p>
+            <p>5op</p>
+            <p><a class="button" href="images/fullstack_esite.png" data-lightbox="fs" data-title="fs1">Harjoitustöitä</a><a href="images/fullstack.png" data-lightbox="fs" data-title="fs2"></a><a href="images/Näyttökuva2023_12_13_125933.png" data-lightbox="fs" data-title="fs3"></a><a href="images/render.png" data-lightbox="fs" data-title="fs4"></a><a href="images/ssrender.png" data-lightbox="fs" data-title="fs5"></a><a href="images/ssmongodb.png" data-lightbox="fs" data-title="fs6"></a></p>            
+        </div>
+    </div>
+<!-- Modaali täysikokoisille kuville napsauttamalla-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" src="none" class="w3-image" alt="sama kuva">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+</section>
+<!-- Kolmas parallaksikuva yhteystiedot -tekstillä -->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide">YHTEYSTIEDOT</span>
+  </div>
+</div>
+<!-- Yhteystiedot osio -->
+<figure class="w3-content w3-container w3-padding-64" id="yhteystiedot">
+  <!-- <h3 class="w3-center">YHTEYSTIEDOT</h3> -->
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-col m4 w3-container">
+      <img src="images/132914.png" alt="kartta" class="w3-image w3-round w3-hover-opacity" style="width:100%" onclick="onClick(this)">
+    </div>
+    <div class="w3-col m8 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Jyväskylä, Finland<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +358407355790<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: katainen.samuli@gmail.com<br>
+        <i class="fa fa-facebook fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i><br>
+        <i class="fa fa-x-twitter fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i><br>
+        <i class="fa fa-linkedin fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i><br>
+        </div>
+    </div>
+  </div>
+</figure>
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-32 w3-opacity ">
+  <a href="#etusivu" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Alkuun</a>
+  <!-- <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div> -->
+</footer>
+<script>
+// Modaalinen kuvagalleria
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+// Muuta navigointipalkin tyyliä vierityksen aikana
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-dark-grey";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-dark-grey", "");
+    }
+}
+// Käytetään valikon vaihtamiseen pienillä näytöillä, kun napsautat valikkopainiketta
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+<script src="js/lightbox-plus-jquery.js"></script>
+</body>
+</html>
